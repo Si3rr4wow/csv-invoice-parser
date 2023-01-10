@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "lib": ["ESNext"],
+      "target": "ESNext",
+      "module": "CommonJS",
+      "outDir": "bin",
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true
+  },
+  "include": ["src", "types"],
+  "exclude": ["node_modules", "bin"],
+}
